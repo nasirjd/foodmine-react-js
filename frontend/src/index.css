@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  font-family: Quicksand, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
