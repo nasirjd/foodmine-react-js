@@ -20,3 +20,27 @@
 - [x] Use BrowserRouter inside index.js
 - [x] Update Header.js
 - [x] Update header.module.css
+
+## 4. Adding Thumbnails
+
+- [x] Add HomePage component
+- [x] Add AppRoutes component
+- [x] Use AppRoutes in App.js
+- [x] Add data.js
+- [x] Add food Images
+- [x] Add foodService.js
+- [x] Update HomePage.js
+  - [x] Add Reducer
+  - [x] Load foods
+  - [x] Add Thumbnails.js
+    - [x] Add CSS File
+    - [x] Add Image
+    - [x] Add Title
+    - [x] Add Favorite Icon
+    - [x] Add StarRating.js
+      - [x] Add Star Images
+      - [x] Add CSS
+    - [x] Add Origins
+    - [x] Add Cook Time
+    - [x] Add Price.js
+    - [x] Update CSS File
