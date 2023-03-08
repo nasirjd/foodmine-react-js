@@ -44,3 +44,11 @@
     - [x] Add Cook Time
     - [x] Add Price.js
     - [x] Update CSS File
+
+## 5. Adding Search
+
+- [x] Add Search Route to AppRoutes.js
+- [x] Add Search function to foodService.js
+- [x] Use Search Inside HomePage.js
+- [x] Add Search Component
+  - [x] Add CSS
