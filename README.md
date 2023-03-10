@@ -52,3 +52,19 @@
 - [x] Use Search Inside HomePage.js
 - [x] Add Search Component
   - [x] Add CSS
+
+## 6.Adding Tags Bar
+
+### Showing The Tags:
+
+- [x] Add sample_tags to data.js
+- [x] Add getAllTags function to foodService.js
+- [x] Add Tags Component
+  - [x] Add Css
+- [x] Use Tags Component in HomePage.js
+
+### Showing Foods By Tag
+
+- [x] Add Tag route to AppRoutes.js
+- [x] Add getAllByTag function to foodService.js
+- [x] Use tag param in HomePage.js
