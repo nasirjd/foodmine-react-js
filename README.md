@@ -68,3 +68,13 @@
 - [x] Add Tag route to AppRoutes.js
 - [x] Add getAllByTag function to foodService.js
 - [x] Use tag param in HomePage.js
+
+## 7. Food Page
+
+- [x] Create FoodPage Component
+- [x] Add route to AppRoutes.js
+- [x] Add getById function to foodService.js
+- [x] Update FoodPage Component
+  - [x] Load food
+  - [x] Create Template
+  - [x] Add Css
