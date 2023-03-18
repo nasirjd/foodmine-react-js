@@ -78,3 +78,24 @@
   - [x] Load food
   - [x] Create Template
   - [x] Add Css
+
+## 8. Cart Page
+
+- [x] Create Cart Page Component
+  - [x] Create css
+- [x] Add cart route to the Routes
+- [x] Create useCart Hook
+  - [x] Add CartProvider to index.js
+  - [x] Initialize cart with sample foods
+- [x] Update Cart Page Compnent
+  - [x] useCart hook
+  - [x] Add Title Component
+  - [x] Add JSX
+  - [x] Add CSS
+- [x] Update useCart Hook
+  - [x] Add to cart
+  - [x] Remove from cart
+  - [x] Change quantity
+  - [x] Saving To LocalStorage
+- [x] In Food Page useCart for Add to cart buttons
+- [x] In Header useCart for cart total count
