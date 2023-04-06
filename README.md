@@ -99,3 +99,13 @@
   - [x] Saving To LocalStorage
 - [x] In Food Page useCart for Add to cart buttons
 - [x] In Header useCart for cart total count
+
+## 9.Not Found!
+
+- [x] Create NotFound Component
+  - [x] Add CSS
+- [x] Add Not Found To:
+  - [x] Home Page
+  - [x] Food Page
+  - [x] Cart Page
+- [x] Fixing Search Issue
