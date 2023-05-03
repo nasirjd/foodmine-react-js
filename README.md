@@ -109,3 +109,23 @@
   - [x] Food Page
   - [x] Cart Page
 - [x] Fixing Search Issue
+
+## 10. Connect To Backend
+
+- [x] Create backend folder
+- [x] Initializing NPM Project
+- [x] Copy data.ts to backend/src
+- [x] npm install express cors
+- [x] Create .gitignore
+- [x] Create server.js
+  - [x] Add & Config Express
+    - [x] Add & Config Cors
+  - [x] Add Food Router
+    - [x] Add jsconfig.json
+    - [x] Add Apis
+- [x] npm install nodemon
+  - [x] Add dev Script into the package.json
+  - [x] npm run dev
+- [x] Add axios package
+  - [x] axiosConfig.js file
+- [x] Connect food service to the Apis
