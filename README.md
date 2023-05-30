@@ -129,3 +129,37 @@
 - [x] Add axios package
   - [x] axiosConfig.js file
 - [x] Connect food service to the Apis
+
+## 11. Login Page
+
+### Backend
+
+- [x] Create User Router
+  - [x] npm install jsonwebtoken
+  - [x] Add Login Api
+    - [x] Add sample_users to data.js
+    - [x] Add httpStatus.js
+  - [x] Add generateTokenResponse function
+- [x] Add User Router To server.js
+
+### Frontend
+
+- [x] Create user service
+  - [x] Add getUser function
+  - [x] Add login function
+  - [x] Add logout function
+- [x] npm install react-toastify
+- [x] Create useAuth hook
+  - [x] Add user state
+  - [x] Add Login function
+  - [x] Add logout function
+- [x] Create LoginPage component
+  - [x] Add to AppRoutes.js
+  - [x] Create Custom Components
+    - [x] Input Container
+      - [x] CSS
+    - [x] Input
+      - [x] CSS
+    - [x] Button
+      - [x] CSS
+- [x] Add useAuth to the Header component
