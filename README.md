@@ -163,3 +163,39 @@
     - [x] Button
       - [x] CSS
 - [x] Add useAuth to the Header component
+
+## 12. Connecting MongoDB
+
+### Installation
+
+- [x] Install Mongo Db Community
+  - [x] Windows
+  - [x] Macos
+
+### Coding
+
+- [x] Install mongoose
+  - [x] Add User Model
+  - [x] Add Food Model
+- [x] Add .env file
+  - [x] Install dotenv
+  - [x] Add MONGO_URI
+  - [x] Add to .gitignore
+- [x] Add database.config.js
+  - [x] Connect to mongodb
+  - [x] Seed Users
+    - [x] Install bcryptjs for password hashing
+  - [x] Seed Foods
+- [x] Update user.router ( Using UserModel)
+  - [x] Install express-async-handler
+  - [x] Login Api
+  - [x] generateTokenResponse
+- [x] Update food.router (Using FoodModel):
+  - [x] Root Api ( Loading all foods )
+  - [x] Tags api
+  - [x] Search Api
+  - [x] FoodId api ( Finding food by id )
+- [x] Fix Image url in:
+  - [x] Thumnails compnent
+  - [x] Food Page component
+  - [x] Cart Page component
