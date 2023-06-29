@@ -199,3 +199,14 @@
   - [x] Thumnails compnent
   - [x] Food Page component
   - [x] Cart Page component
+
+## 13. Register Page
+
+- [x] Add Register Page Component
+  - [x] Add to AppRoutes
+  - [x] Add Link to login page
+  - [x] CSS
+- [x] Add '/register' api to user.router.js
+- [x] Add register function in userService
+- [x] Add register function in useAuth hook
+  - [x] Add to Register page
