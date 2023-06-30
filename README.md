@@ -210,3 +210,13 @@
 - [x] Add register function in userService
 - [x] Add register function in useAuth hook
   - [x] Add to Register page
+
+## 14. Loading
+
+- [x] Create useLoading hook
+  - [x] Add LoadingProvider to index.js
+- [x] Create Loading component
+  - [x] Add to App.js
+  - [x] Add Image
+  - [x] CSS
+- [x] Create Loading Interceptor
