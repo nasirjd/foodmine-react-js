@@ -220,3 +220,30 @@
   - [x] Add Image
   - [x] CSS
 - [x] Create Loading Interceptor
+
+## 15. Checkout Page
+
+- [x] Fixing Loading problem
+- [x] Create Checkout Page component
+  - [x] Create AuthRoute
+  - [x] Add to Routes
+  - [x] Add css
+  - [x] Create Order Items List
+  - [x] Create Maps Component
+    - [x] Install leaflet & react-leaflet
+    - [x] Adding images to public folder
+    - [x] Fixing header menu problem with map
+- [x] Create Order router
+
+  - [x] Create auth middleware
+    - [x] Add UNAUTHORIZED http statuss
+    - [x] Add to Order router
+  - [x] Create Order Model
+    - [x] Create Order Status
+  - [x] Add to server.js
+
+- [x] Connecting Frontend to Backend
+  - [x] Create order service
+    - [x] Add create function
+  - [x] Create Auth interceptor
+    - [x] Add to index.js

@@ -1,0 +1,26 @@
+.table {
+  width: 100%;
+  border: 1px solid #eeeeee;
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.table td {
+  height: 3rem;
+}
+.table td img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: 100rem;
+}
+
+.table h3 {
+  margin-top: 0.5rem;
+  margin-left: 0.3rem;
+  color: grey;
+}
+.table a:hover {
+  opacity: 0.9;
+}

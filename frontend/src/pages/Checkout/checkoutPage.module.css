@@ -1,0 +1,32 @@
+.container {
+  margin-top: 1rem;
+  display: flex;
+  margin: 0 0 6rem 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content {
+  width: 35rem;
+  margin: 0 3rem 0 0;
+}
+
+.content,
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  width: 100%;
+}
+
+.buttons_container {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+}
+.buttons {
+  margin: 2rem;
+  width: 35rem;
+}
