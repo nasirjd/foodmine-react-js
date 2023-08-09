@@ -247,3 +247,17 @@
     - [x] Add create function
   - [x] Create Auth interceptor
     - [x] Add to index.js
+
+## 16. Payment Page
+
+- [x] Create PaymentPage component
+  - [x] Add to Routes
+  - [x] CSS
+- [x] Update Order Router
+  - [x] Add newOrderForCurrentUser
+  - [x] Add pay api
+- [x] Create PaypalButtons Component
+  - [x] npm install @paypal/react-paypal-js
+  - [x] Add clearCart to useCart
+  - [x] Get clientId
+  - [x] Create Sandbox user for testing
