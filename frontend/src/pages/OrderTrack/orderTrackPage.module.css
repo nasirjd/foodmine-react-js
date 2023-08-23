@@ -1,0 +1,42 @@
+.container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 35rem;
+  margin-right: 1rem;
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+
+.header > div {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.header strong {
+  display: inline-block;
+  width: 20%;
+}
+
+.payment {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.payment a {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 0.8rem 5rem;
+  border-radius: 1rem;
+}

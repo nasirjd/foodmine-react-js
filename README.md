@@ -261,3 +261,17 @@
   - [x] Add clearCart to useCart
   - [x] Get clientId
   - [x] Create Sandbox user for testing
+
+## 17. Order Track Page
+
+- [x] Create Order Track Page
+  - [x] Add To Routes
+  - [x] CSS
+  - [x] Create DateTime Component
+    - [x] Complete
+  - [x] Map
+    - [x] Fixing Marker Icon Issue
+  - [x] Complete
+- [x] Order Router
+  - [x] Add ‘track/:id’ api
+    - [x] Add to orderService
