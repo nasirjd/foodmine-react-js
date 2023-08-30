@@ -275,3 +275,19 @@
 - [x] Order Router
   - [x] Add ‘track/:id’ api
     - [x] Add to orderService
+
+## 18.Profile Page
+
+- [x] Create ProfilePage Component
+  - [x] CSS
+  - [x] Update Profile
+  - [x] ChangePassword component
+- [x] Update useAuth hook
+  - [x] Add updateProfile function
+  - [x] Add changePassword function
+- [x] Update userService
+  - [x] Add updateProfile funciton
+  - [x] Add changePassword function
+- [x] Update User Router
+  - [x] Add updateProfile api
+  - [x] Add changePassword api
