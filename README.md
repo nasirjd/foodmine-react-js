@@ -291,3 +291,15 @@
 - [x] Update User Router
   - [x] Add updateProfile api
   - [x] Add changePassword api
+
+## 19. Orders Page
+
+- [x] Create Orders Page
+  - [x] Add To Routes
+  - [x] CSS
+- [x] Update Order Service
+  - [x] Add getAll function
+  - [x] Add getAllStatus function
+- [x] Update Order Router
+  - [x] Add `/:status?`
+  - [x] Add `/allStatus/:id`
