@@ -14,6 +14,7 @@ import OrdersPage from './pages/Orders/OrdersPage';
 import Dashboard from './pages/Dashboard/Dashboard';
 import AdminRoute from './components/AdminRoute/AdminRoute';
 import FoodsAdminPage from './pages/FoodsAdmin/FoodsAdminPage';
+import FoodEditPage from './pages/FoodEdit/FoodEditPage';
 
 export default function AppRoutes() {
   return (
@@ -78,6 +79,23 @@ export default function AppRoutes() {
         element={
           <AdminRoute>
             <FoodsAdminPage />
+          </AdminRoute>
+        }
+      />
+
+      <Route
+        path="/admin/addFood"
+        element={
+          <AdminRoute>
+            <FoodEditPage />
+          </AdminRoute>
+        }
+      />
+      <Route
+        path="/admin/editFood/:foodId"
+        element={
+          <AdminRoute>
+            <FoodEditPage />
           </AdminRoute>
         }
       />
