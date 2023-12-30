@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.list {
+  width: 100%;
+  max-width: 50rem;
+}
+
+.list_item {
+  display: grid;
+  grid-template-columns: 20% 35% 20% 10% 15%;
+  gap: 1%;
+  align-items: center;
+  border-bottom: 1px solid whitesmoke;
+  min-height: 3rem;
+}
+
+.list_item > * {
+  word-wrap: break-word;
+}
+
+h3 {
+  margin-left: 0;
+}
+
+.actions {
+  display: flex;
+  gap: 0.7rem;
+}

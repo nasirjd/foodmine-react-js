@@ -6,6 +6,7 @@ import handler from 'express-async-handler';
 import { UserModel } from '../models/user.model.js';
 import bcrypt from 'bcryptjs';
 import auth from '../middleware/auth.mid.js';
+import admin from '../middleware/admin.mid.js';
 const PASSWORD_HASH_SALT_ROUNDS = 10;
 
 router.post(
@@ -90,6 +91,40 @@ router.put(
     await user.save();
 
     res.send();
+  })
+);
+
+router.get(
+  '/getall/:searchTerm?',
+  admin,
+  handler(async (req, res) => {
+    const { searchTerm } = req.params;
+
+    const filter = searchTerm
+      ? { name: { $regex: new RegExp(searchTerm, 'i') } }
+      : {};
+
+    const users = await UserModel.find(filter, { password: 0 });
+    res.send(users);
+  })
+);
+
+router.put(
+  '/toggleBlock/:userId',
+  admin,
+  handler(async (req, res) => {
+    const { userId } = req.params;
+
+    if (userId === req.user.id) {
+      res.status(BAD_REQUEST).send("Can't block yourself!");
+      return;
+    }
+
+    const user = await UserModel.findById(userId);
+    user.isBlocked = !user.isBlocked;
+    user.save();
+
+    res.send(user.isBlocked);
   })
 );
 
