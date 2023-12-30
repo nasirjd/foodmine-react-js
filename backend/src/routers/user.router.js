@@ -128,6 +128,32 @@ router.put(
   })
 );
 
+router.get(
+  '/getById/:userId',
+  admin,
+  handler(async (req, res) => {
+    const { userId } = req.params;
+    const user = await UserModel.findById(userId, { password: 0 });
+    res.send(user);
+  })
+);
+
+router.put(
+  '/update',
+  admin,
+  handler(async (req, res) => {
+    const { id, name, email, address, isAdmin } = req.body;
+    await UserModel.findByIdAndUpdate(id, {
+      name,
+      email,
+      address,
+      isAdmin,
+    });
+
+    res.send();
+  })
+);
+
 const generateTokenResponse = user => {
   const token = jwt.sign(
     {

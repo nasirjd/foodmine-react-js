@@ -7,6 +7,7 @@ import Button from '../../components/Button/Button';
 import { Link } from 'react-router-dom';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../hooks/useAuth';
+import { EMAIL } from '../../constants/patterns';
 
 export default function RegisterPage() {
   const auth = useAuth();
@@ -51,10 +52,7 @@ export default function RegisterPage() {
             label="Email"
             {...register('email', {
               required: true,
-              pattern: {
-                value: /^[\w-.]+@([\w-]+\.)+[\w-]{2,63}$/i,
-                message: 'Email Is Not Valid',
-              },
+              pattern: EMAIL,
             })}
             error={errors.email}
           />

@@ -5,9 +5,15 @@ import classes from './search.module.css';
 Search.defaultProps = {
   searchRoute: '/search/',
   defaultRoute: '/',
+  placeholder: 'Search Food Mine!',
 };
 
-export default function Search({ searchRoute, defaultRoute, margin }) {
+export default function Search({
+  searchRoute,
+  defaultRoute,
+  margin,
+  placeholder,
+}) {
   const [term, setTerm] = useState('');
   const navigate = useNavigate();
   const { searchTerm } = useParams();
@@ -23,7 +29,7 @@ export default function Search({ searchRoute, defaultRoute, margin }) {
     <div className={classes.container} style={{ margin }}>
       <input
         type="text"
-        placeholder="Search Food Mine!"
+        placeholder={placeholder}
         onChange={e => setTerm(e.target.value)}
         onKeyUp={e => e.key === 'Enter' && search()}
         value={term}

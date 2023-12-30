@@ -40,3 +40,13 @@ export const toggleBlock = async userId => {
   const { data } = await axios.put('/api/users/toggleBlock/' + userId);
   return data;
 };
+
+export const getById = async userId => {
+  const { data } = await axios.get('/api/users/getById/' + userId);
+  return data;
+};
+
+export const updateUser = async userData => {
+  const { data } = await axios.put('/api/users/update', userData);
+  return data;
+};
